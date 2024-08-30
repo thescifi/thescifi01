@@ -1281,4 +1281,147 @@ html {
 
 }
 
+      .sec2__aboutme2 p {
+
+    font-size: 1.5rem;
+
+}
+
+
+
+.sec3 {
+
+    position: relative;
+
+    min-height: 100vh;
+
+    overflow: hidden;
+
+    width: 100%;
+
+    background: radial-gradient(#021c33,#000);
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: space-evenly;
+
+}
+
+
+
+.sec3 h1 {
+
+    position: relative;
+
+    color: #fff;
+
+    font-size: 5rem;
+
+    border-bottom: .2rem solid red;
+
+}
+
+
+
+.sec3__container {
+
+    position: relative;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-evenly;
+
+    width: 100%;
+
+    flex-wrap: wrap;
+
+}
+
+
+
+.sec3__box .sec3__percent svg {
+
+    position: relative;
+
+    width: 15rem;
+
+    height: 15rem;
+
+    z-index: 1000;
+
+}
+
+
+
+.sec3__box .sec3__percent svg circle {
+
+    width: 100%;
+
+    height: 100%;
+
+    fill: none;
+
+    stroke: #191919;
+
+    stroke-width: 10;
+
+    stroke-linecap: round;
+
+    transform: translate(.5rem, .5rem);
+
+}
+
+
+
+.sec3__percent svg circle:nth-child(2) {
+
+    stroke-dasharray: 440;
+
+    stroke-dashoffset: 440;
+
+}
+
+
+
+.sec3__card:nth-child(1) .sec3__box .sec3__percent svg circle:nth-child(2) {
+
+    stroke: #00ff43;
+
+    stroke-dashoffset: calc(440 - (440*90)/100);
+
+}
+
+
+
+.sec3__card:nth-child(2) .sec3__box .sec3__percent svg circle:nth-child(2) {
+
+    stroke: blue;
+
+    stroke-dashoffset: calc(440 - (440*70)/100);
+
+}
+
+
+
+.sec3__card:nth-child(3) .sec3__box .sec3__percent svg circle:nth-child(2) {
+
+    stroke: red;
+
+    stroke-dashoffset: calc(440 - (440*5)/100);
+
+}
+
+
+
+.sec3__card {
+
+    position: relative;
+
+    background: #000;
 
