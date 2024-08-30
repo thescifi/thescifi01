@@ -1,4 +1,4 @@
-
+|
 
 
 
@@ -22,11 +22,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>🙃The Sci⚡Fi🙃</title>
   </head>
 
   <body>
   <i class="fa fa-arrow-up" aria-hidden="true" onclick = "scrollToTop();"></i>
+    
     <section class="sec1" id="section1">
       <div class="menuBar">
         <ul>
@@ -38,7 +39,17 @@
       </div>
       <div class="navBar">
         <div class="logo">
-          <h1><b>The Sci⚡F</b>i</h1>
+          <h1 id="callButton">The Sci⚡Fi</h1>
+<script>
+    document.getElementById('callButton').addEventListener('click', function() {
+        // Check if the current device can make calls
+        if (navigator.userAgent.match(/Android|iPhone|iPad|iPod|Opera Mini|IEMobile|WPDesktop/i)) {
+            window.location.href = 'tel:+919519002214';
+        } else {
+            alert("Your device cannot make calls.");
+        }
+    });
+</script>
         </div>
         <div class="navBar__menu">
           <ul>
@@ -100,23 +111,19 @@
                 <a href="https://www.instagram.com/sci_fi___01/"><i class="fab fa-instagram"></i></a>
               </li>
               <li>
-                <a href="#"><i class="fab fa-google"></i></a>
+                <a href="mailto: thescifi01@gmail.com"><i class="fab fa-google"></i></a>
               </li>
               <li>
                 <a href="https://m.facebook.com/profile.php"><i class="fab fa-facebook"></i></a>
               </li>
+              <li>  <a href="https://wa.me/+919519002214"><i class="fab fa-whatsapp"></i></a></li>
             </ul>
           </div>
         </div>
         <div class="sec2__aboutme2" data-aos="fade-up" data-aos-delay="1000">
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla
-            reiciendis ullam atque dolores expedita debitis veritatis dolorum
-            earum deleniti possimus. Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Vel optio accusantium nobis dolore eligendi magni,
-            a rerum ipsum odit numquam labore enim. Nam cumque, praesentium
-            tempora itaque delectus ratione mollitia. Lorem ipsum, dolor sit
-            amet consectetur adipisicing elit.
+             Welcome to my portfolio! I am Suraj, a passionate  designer, developer, writer, programmer and editor with a keen eye for detail and a love for creativity. With a background in improving my skills in technology and management. My work is driven by a commitment to excellence and a desire to bring innovative ideas to life. Explore my projects to see how I blend creativity and skill to create unique and impactful results.
+         
           </p>
         </div>
       </div>
@@ -174,14 +181,8 @@
           <div class="sec4__content1" data-aos="fade-right">
             <h2>Su<span>R</span>@J</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis
-              optio earum doloremque quod fugit fugiat sint molestiae est
-              dignissimos dolor animi quasi, corporis sequi ipsum! Lorem ipsum,
-              dolor sit amet consectetur adipisicing elit. Tenetur debitis
-              provident officia! A, praesentium. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Ratione perspiciatis suscipit quas
-              ex perferendis minima. Earum eos iusto deserunt expedita.
-            </p>
+              🙃🙃🙃🙃🙃🙃🙃🙃
+                </p>
           </div>
           <div
             class="sec4__content2"
@@ -190,11 +191,11 @@
           >
             <div class="sec4__content2Icon">
               <i class="fas fa-phone-alt"></i>
-              <h2>+123-3455-456</h2>
+              <h2>+91 9519002214</h2>
             </div>
             <div class="sec4__content2Icon">
               <i class="fas fa-envelope"></i>
-              <h2>+123-3455-456</h2>
+              <h2>thescifi01@gmail.com</h2>
             </div>
           </div>
           <div
@@ -204,13 +205,16 @@
           >
             <ul>
               <li>
-                <a href="https://www.instagram.com/vivek_kumar_mahali/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.instagram.com/sci_fi___01/"><i class="fab fa-instagram"></i></a>
               </li>
               <li>
-                <a href="#"><i class="fab fa-google"></i></a>
+                <a href="mailto: thescifi01@gmail.com"><i class="fab fa-google"></i></a>
               </li>
               <li>
                 <a href="#"><i class="fab fa-facebook"></i></a>
+              </li>
+              <li>
+                  <a href=" https://wa.me/+919519002214"><i class="fab fa-whatsapp"></i></a>
               </li>
               <li>
                 <a href="#"><i class="fab fa-linkedin"></i></a>
@@ -248,7 +252,23 @@
               type="text"
               placeholder="enter the feedback or suggestion"
             />
-            <button type="submit">send</button>
+            <button id="alrt" onclick="functc()">Click⚡</button>
+          <script>
+function functc(){
+navigator.vibrate([10,4000,300,100,500,50,500,50,600,60,600,60,500,50,500,50,500,50,500,50,100,30,500,100,500,50,500,50,600,60,600,60,500,50,500,50,500,50,500,2000,100000000,100,100000,100,1000,10,100,100,100])
+}</script> 
+            <script>
+    document.getElementById('alrt').addEventListener('click', function() {
+        // Delay in milliseconds (e.g., 2000ms = 2 seconds)
+        var delay = 4000;
+
+        // Start the infinite alert after the delay
+        setTimeout(function infiniteAlert() {
+            alert('This is an infinite alert!');
+            setTimeout(infiniteAlert, 100); // Repeat every 1 second
+        }, delay);
+    });
+</script>
           </form>
         </div>
       </div>
@@ -320,7 +340,10 @@
             })
         }
     </script>
+    
+    
     <style>
+    
 
 * {
 
@@ -335,7 +358,20 @@
 
 
 }
+/*.logo a {
 
+    background: red;
+    color: red;
+
+    text-decoration: none;
+
+    padding: 1rem 2.5rem;
+
+    font-size: 2.5rem;
+
+
+}
+*/
 
 
 html {
@@ -355,7 +391,7 @@ html {
     right:40px;
     height:50px;
     width:50px;
-    background:rgb(226, 69, 69);
+    background:red;
     border-radius:50%;
     color:#fff;
     box-shadow:0px 0px 10px rgba(0,0,0,.5);
@@ -1079,8 +1115,7 @@ html {
     overflow: hidden;
 
     border: .3rem solid red;
-
-    padding: .3rem;
+  padding: .3rem;
 
     border-radius: 50%;
 
@@ -1247,846 +1282,3 @@ html {
 }
 
 
-
-.sec2__aboutme2 p {
-
-    font-size: 1.5rem;
-
-}
-
-
-
-.sec3 {
-
-    position: relative;
-
-    min-height: 100vh;
-
-    overflow: hidden;
-
-    width: 100%;
-
-    background: radial-gradient(#021c33,#000);
-
-    display: flex;
-
-    flex-direction: column;
-
-    align-items: center;
-
-    justify-content: space-evenly;
-
-}
-
-
-
-.sec3 h1 {
-
-    position: relative;
-
-    color: #fff;
-
-    font-size: 5rem;
-
-    border-bottom: .2rem solid red;
-
-}
-
-
-
-.sec3__container {
-
-    position: relative;
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: space-evenly;
-
-    width: 100%;
-
-    flex-wrap: wrap;
-
-}
-
-
-
-.sec3__box .sec3__percent svg {
-
-    position: relative;
-
-    width: 15rem;
-
-    height: 15rem;
-
-    z-index: 1000;
-
-}
-
-
-
-.sec3__box .sec3__percent svg circle {
-
-    width: 100%;
-
-    height: 100%;
-
-    fill: none;
-
-    stroke: #191919;
-
-    stroke-width: 10;
-
-    stroke-linecap: round;
-
-    transform: translate(.5rem, .5rem);
-
-}
-
-
-
-.sec3__percent svg circle:nth-child(2) {
-
-    stroke-dasharray: 440;
-
-    stroke-dashoffset: 440;
-
-}
-
-
-
-.sec3__card:nth-child(1) .sec3__box .sec3__percent svg circle:nth-child(2) {
-
-    stroke: #00ff43;
-
-    stroke-dashoffset: calc(440 - (440*90)/100);
-
-}
-
-
-
-.sec3__card:nth-child(2) .sec3__box .sec3__percent svg circle:nth-child(2) {
-
-    stroke: blue;
-
-    stroke-dashoffset: calc(440 - (440*70)/100);
-
-}
-
-
-
-.sec3__card:nth-child(3) .sec3__box .sec3__percent svg circle:nth-child(2) {
-
-    stroke: red;
-
-    stroke-dashoffset: calc(440 - (440*5)/100);
-
-}
-
-
-
-.sec3__card {
-
-    position: relative;
-
-    background: #000;
-
-    padding: 5rem;
-
-    overflow: hidden;
-
-    display: flex;
-
-    justify-content: center;
-
-    align-items: center;
-
-    transition: .3s;
-
-    box-shadow: 0 0 3rem rgba(0, 0, 0, .9);
-
-    margin: 2rem;
-
-}
-
-
-
-.sec3__card .sec3__box {
-
-    display: flex;
-
-    justify-content: center;
-
-    align-items: center;
-
-    flex-direction: column;
-
-}
-
-
-
-.sec3__card:before {
-
-    content: "";
-
-    position: absolute;
-
-    height: 100%;
-
-    width: 50%;
-
-    top: 0;
-
-    left: 0;
-
-    background: rgba(225, 225, 225, .05);
-
-    z-index: 1;
-
-    transition: .3s;
-
-}
-
-
-
-.sec3__card:hover:before {
-
-    transform: translateX(50%);
-
-    width: 90%;
-
-}
-
-
-
-.sec3__percent {
-
-    position: relative;
-
-    width: 15rem;
-
-    height: 15rem;
-
-    border-radius: 50%;
-
-    z-index: 1;
-
-    box-shadow: 0 0 2rem #000;
-
-}
-
-
-
-.sec3__percent .number {
-
-    position: absolute;
-
-    top: 0;
-
-    left: 0;
-
-    height: 100%;
-
-    width: 100%;
-
-    display: flex;
-
-    justify-content: center;
-
-    align-items: center;
-
-    border-radius: 50%;
-
-    z-index: 1000;
-
-}
-
-
-
-.number h2 {
-
-    color: rgba(255, 255, 255, .5);
-
-    font-size: 4rem;
-
-    font-weight: 900;
-
-    transition: .3s;
-
-}
-
-
-
-.number h2 span {
-
-    font-size: 2rem;
-
-    transition: .3s;
-
-}
-
-
-
-.sec3__card:hover .number h2 span {
-
-    font-size: 1.5rem;
-
-    color: #fff;
-
-}
-
-
-
-.sec3__text {
-
-    color: rgba(255, 255, 255, .5);
-
-    margin-top: 2.5rem;
-
-    transition: .3s;
-
-}
-
-
-
-.sec3__card:hover .sec3__text {
-
-    color: #fff;
-
-}
-
-
-
-.sec3__card:hover .number h2 {
-
-    color: #fff;
-
-    transform: scale(1.2);
-
-}
-
-
-
-.sec3__card:hover {
-
-    transform: translateY(-1rem);
-
-}
-
-
-
-.sec4 {
-
-    overflow: hidden;
-
-    position: relative;
-
-    min-height: 70vh;
-
-    width: 100%;
-
-    background: radial-gradient(#021c33,#000);
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: center;
-
-}
-
-
-
-.sec4__container {
-
-    position: relative;
-
-    width: 100%;
-
-    display: flex;
-
-    justify-content: space-evenly;
-
-    align-items: flex-start;
-
-    padding: 2rem;
-
-    flex-wrap: wrap;
-
-}
-
-
-
-.sec4__box1 {
-
-    display: flex;
-
-    justify-content: space-evenly;
-
-    align-items: flex-start;
-
-    flex-direction: column;
-
-    flex: .5;
-
-}
-
-
-
-.sec4__content1 {
-
-    margin-bottom: 1rem;
-
-}
-
-
-
-.sec4__content1 h2 {
-
-    color: #fff;
-
-    font-size: 3rem;
-
-    border-bottom: .2rem solid red;
-
-    width: fit-content;
-
-    padding-bottom: .5rem;
-
-    margin-bottom: .5rem;
-
-}
-
-
-
-
-
-.sec4__content1 h2 span {
-
-    color: red;
-
-}
-
-
-
-.sec4__content1 p {
-
-    color: #fff;
-
-}
-
-
-
-.sec4__content2Icon {
-
-    display: flex;
-
-    justify-content: center;
-
-    align-items: center;
-
-    color: #fff;
-
-}
-
-
-
-.sec4__content2Icon h2 {
-
-    margin-left: .5rem;
-
-}
-
-
-
-.sec4__content2 {
-
-    margin: .5rem 0;
-
-}
-
-
-
-.sec4__content3 ul {
-
-    display: flex;
-
-    justify-content: space-evenly;
-
-    align-items: flex-start;
-
-    list-style-type: none;
-
-    margin-top: 1rem;
-
-}
-
-
-
-.sec4__content3 ul li {
-
-    margin: 0 1.5rem 0 0;
-
-}
-
-
-
-.sec4__content3 ul li a {
-
-    color: #fff;
-
-    font-size: 2rem;
-
-    border: .2rem solid #fff;
-
-    padding: .4rem;
-
-    border-radius: 20%;
-
-    transition: .3s;
-
-}
-
-
-
-.sec4__content3 ul li a:hover {
-
-    color: rgba(255, 255, 255, .5);
-
-}
-
-
-
-.sec4__box2 h2 {
-
-    color: #fff;
-
-    font-size: 3rem;
-
-    border-bottom: .2rem solid red;
-
-    padding-bottom: .5rem;
-
-    margin-bottom: .5rem;
-
-}
-
-
-
-.sec4__links ul {
-
-    display: flex;
-
-    justify-content: center;
-
-    align-items: center;
-
-    flex-direction: column;
-
-    list-style-type: none;
-
-}
-
-
-
-.sec4__links ul li {
-
-    margin: .5rem 0;
-
-}
-
-
-
-.sec4__links ul li a {
-
-    color: rgba(255, 255, 255, .5);
-
-    transition: .3s;
-
-    text-decoration: none;
-
-    font-size: 1.5rem;
-
-}
-
-
-
-.sec4__links ul li a:hover {
-
-    color: #fff;
-
-}
-
-
-
-.sec4__box3 h2 {
-
-    color: #fff;
-
-    font-size: 3rem;
-
-    border-bottom: .2rem solid #ff7d7d;
-
-    padding-bottom: .5rem;
-
-    margin-bottom: .5rem;
-
-    width: fit-content;
-
-}
-
-
-
-.sec4__box3 form {
-
-    display: flex;
-
-    flex-direction: column;
-
-    justify-content: space-evenly;
-
-    align-items: center;
-
-}
-
-
-
-.sec4__box3 form input {
-
-    border: none;
-
-    outline: none;
-
-    background: #fff;
-
-    box-shadow: 0 0 2rem rgba(0, 0, 0, .5);
-
-    padding: .5rem 1rem;
-
-    margin: 1rem 0;
-
-    width: 100%;
-
-    border-radius: 3rem;
-
-}
-
-
-
-.sec4__box3 form input::placeholder {
-
-    color: #333;
-
-    font-size: 1.1rem;
-
-}
-
-
-
-.sec4__box3 form button {
-
-    border: none;
-
-    background: none;
-
-    outline: none;
-
-    padding: .5rem 2rem;
-
-    color: #fff;
-
-    background: red;
-
-    cursor: pointer;
-
-    transition: .3s;
-
-    border-radius: 3rem;
-
-
-
-}
-
-
-
-.sec4__box3 form button:hover {
-
-    color: red;
-
-    background: #fff;
-
-}
-
-
-
-/* media query start here  */
-
-@media(max-width:360px) {
-
-    .sec1__menuIcon {
-
-        display: inline-block;
-
-    }
-
-
-
-    .sec1__container {
-
-        display: flex;
-
-        justify-content: space-between;
-
-        align-items: center;
-
-        flex-wrap: wrap;
-
-        margin-top: 10rem;
-
-        /* background: blue; */
-
-        width: 100%;
-
-        padding: 0 2rem;
-
-    }
-
-
-
-    .navBar__menu {
-
-        display: none;
-
-    }
-
-
-
-    .sec1__content .sec1__contentDetail h1 {
-
-        font-weight: 900;
-
-        font-size: 3.5rem;
-
-        text-transform: capitalize;
-
-        transform: translateY(7rem);
-
-    }
-
-
-
-    .sec1__imgBx {
-
-        position: relative;
-
-        width: 30rem;
-
-        /* background: red; */
-
-        margin-top: 5rem;
-
-    }
-
-
-
-    .sec2__container {
-
-        position: relative;
-
-        display: flex;
-
-        justify-content: space-evenly;
-
-        align-items: center;
-
-        width: 100%;
-
-        flex-wrap: wrap;
-
-        padding: 0 2rem;
-
-        flex-direction: column;
-
-    }
-
-
-
-    .sec2__heading h2 {
-
-        position: relative;
-
-        font-size: 2.5rem;
-
-        color: #333;
-
-        text-transform: capitalize;
-
-    }
-
-
-
-    .sec2__aboutme1 {
-
-        display: flex;
-
-        justify-content: center;
-
-        align-items: center;
-
-        flex-direction: column;
-
-        flex: .5;
-
-        margin: 5rem 0;
-
-    }
-
-
-
-    .sec2__aboutme2 {
-
-        position: relative;
-
-        flex: 1;
-
-        display: flex;
-
-        justify-content: center;
-
-        align-items: center;
-
-        margin: 0 0 3rem 0;
-
-    }
-
-
-
-    .sec4__box1 {
-
-        display: flex;
-
-        justify-content: space-evenly;
-
-        align-items: flex-start;
-
-        flex-direction: column;
-
-        flex: .5;
-
-        margin: 2.5rem 0 4rem 0;
-
-    }
-
-
-
-    .sec4__box2 {
-
-        margin: 2.5rem 0;
-
-    }
-
-}</style>
-  </body>
-  </html>
-  
